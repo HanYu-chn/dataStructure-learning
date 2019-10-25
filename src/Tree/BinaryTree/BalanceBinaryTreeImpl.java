@@ -96,16 +96,6 @@ public class BalanceBinaryTreeImpl extends BinaryTreeImpl implements BalanceBina
         } else {
             return root;
         }
-//        if(root.getLeftChildNode() == null && root.getRightChildNode() != null) {
-//            root.setHeight(root.getRightChildNode().getHeight() + 1);
-//        } else if(root.getLeftChildNode() != null && root.getRightChildNode() == null) {
-//            root.setHeight(root.getLeftChildNode().getHeight() + 1);
-//        } else if(root.getLeftChildNode() != null && root.getRightChildNode() != null) {
-//            root.setHeight(Math.max(root.getLeftChildNode().getHeight(),root.getRightChildNode().getHeight()) + 1);
-//        } else {
-//            root.setHeight(1);
-//        }
-//        root.setHeight(Math.max(height(root.getLeftChildNode()),height(root.getRightChildNode())) + 1);
           return root;
     }
     /*---------------------------------------分割线-----------------------------------------**/
